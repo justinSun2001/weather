@@ -1,0 +1,275 @@
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/* end reset browser styles */
+
+/* start header style */
+.header {
+    height:60px;
+    width:100%;
+    background-color: cadetblue;
+}
+
+.header .leftArea {
+    float: left;
+    margin-top: 15px;
+    margin-left: 100px;
+    font-size: 25px;
+    color:white;
+}
+
+.header .rightArea {
+    float: right;
+    margin-top: 20px;
+    margin-right:10%;
+}
+
+.header .rightArea .cityStyle {
+    margin-right: 100px;
+    color:white;
+}
+
+.header .rightArea .inputStyle {
+    border-radius: 20px;
+    border: 1px solid rgb(138, 167, 177);
+    outline: 0;
+    width: 250px;
+    height: 25px;
+    background-color: rgba(138, 167, 177, 0.361);
+    color:rgb(199, 208, 211);
+}
+
+.btn {
+    outline:0;
+    border: 1px solid rgba(166, 162, 162, 0.075);
+    border-radius: 10px;
+    background-color: rgba(212, 106, 60, 0.607);
+    cursor: pointer;
+    color:rgb(247, 239, 239);
+}
+/* end header style */
+
+/* start today-info style */
+
+.today-info {
+    width: 100%;
+    height:300px;
+    background-color: rgb(24, 120, 184);
+}
+
+.today-info .style1 {
+    margin-left:100px;
+    color:rgba(211, 211, 211, 0.724);
+    font-size: small;
+}
+
+.today-info .style2 {
+    margin-left:100px;
+    font-size:60px;
+    color:white;
+}
+
+.today-info .style3 {
+    font-size:20px;
+    color:white;
+    margin-left: 10px;
+}
+
+.today-info .style4 {
+    color:white;
+    margin-left: 0px;
+}
+
+.today-info .style5 {
+    color:white;
+}
+
+.today-info .style6{
+    color:white;
+    padding-left: 0px;
+}
+
+.today-info .style7 {
+    color:white;
+    padding-left: 0px;
+}
+
+.today-info .style8 {
+    color:white;
+    padding-left: 0px;
+}
+
+.today-info .style9 {
+    color:white;
+    font-size:20px;
+    margin-left: 100px;
+}
+
+/* end today-info style */
+
+/* start hours-container style */
+
+.hours-container {
+    margin-left: 100px;
+    width:80%;
+    height:200px;
+    background-color: white;
+    margin-right: 10%;
+    overflow: hidden;
+}
+
+.hours-container .titleStyle {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.hours-container .hour-list {
+    list-style: none;
+    text-align: center;
+}
+
+.hours-container .hour-list li {
+    float:left;
+    padding-right: 60px;
+}
+
+.hours-container .hour-list .style1 {
+    color:rgba(214, 212, 212, 0.902);
+    font-size: small;
+}
+
+.hours-container .hour-list .style2 {
+    color:rgba(24, 106, 214, 0.902);
+    font-size:large;
+}
+
+/* end hours-container style */
+
+/* start days-container style */
+
+.days-container {
+    width:80%;
+    height:550px;
+    margin-left: 100px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.days-container .titleStyle {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.days-container .day-list {
+    list-style: none;
+    text-align: center;
+}
+
+.days-container .day-list li {
+    float:left;
+    padding-right: 30px;
+}
+
+.days-container .day-list .style1 {
+    color:darkslategray;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.days-container .day-list .style2 {
+    font-size: small;
+    color: grey;
+}
+
+.days-container .day-list .style3 {
+    color:darkslategray;
+    display: block;
+    padding-top:22px;
+    padding-bottom: 15px;
+}
+
+.days-container .day-list .style4 {
+    color:darkslategray;
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 120px;
+}
+
+.days-container .day-list .style5 {
+    color:darkslategray;
+    display: block;
+    padding-bottom: 25px;
+}
+
+.days-container .day-list .style6 {
+    color:darkslategray;
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 16px;
+
+}
+
+.days-container .day-list .style7 {
+    font-size: small;
+    color: grey;
+}
+
+.life-container {
+    width:50%;
+    height:450px;
+    margin-left: 100px;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container_listItem {
+    flex: 1 1 30%;
+    overflow: hidden;
+    padding-right: 20px;
+    padding-top: 50px;
+}
+
+.container_listItem .style{
+    cursor: pointer;
+    overflow: hidden;
+    height:150px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border: 1px solid rgba(235, 238, 233, 0.915);
+    border-radius: 15px;
+    padding-top: 20px;
+  }
