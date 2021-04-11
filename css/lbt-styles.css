@@ -29,31 +29,31 @@
 }
   .sidebar1 {
     height:190px;
-    background-image: url("images/img11.jpeg");
+    background-image: url("../images/img11.jpeg");
     background-size: 100% 190px;
     background-repeat: no-repeat;
   }
   .sidebar2 {
     margin-top: 20px;
     height:190px;
-    background-image: url("images/img14.jpeg");
+    background-image: url("../images/img14.jpeg");
     background-size: 100% 190px;
     background-repeat: no-repeat;
   }
 
 
   .item:nth-child(1){
-    background-image: url("images/img5.jpeg");
+    background-image: url("../images/img5.jpeg");
     background-size: 100% 400px;
     background-repeat: no-repeat;
   }
   .item:nth-child(2){
-    background-image: url("images/img7.jpeg");
+    background-image: url("../images/img7.jpeg");
     background-size: 100% 400px;
     background-repeat: no-repeat;
   }
   .item:nth-child(3){
-    background-image: url("images/img4.jpeg");
+    background-image: url("../images/img4.jpeg");
     background-size: 100% 400px;
     background-repeat: no-repeat;
   }
