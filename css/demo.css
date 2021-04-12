@@ -69,7 +69,16 @@ table {
     background-color: rgba(138, 167, 177, 0.361);
     color:rgb(199, 208, 211);
 }
+.personalWeb {
+    font-size: 25px;
+    color: blue;
+    margin-left: 200px;
+    text-decoration: none;
+}
 
+a:hover {
+    color:red;
+}
 .btn {
     outline:0;
     border: 1px solid rgba(166, 162, 162, 0.075);
