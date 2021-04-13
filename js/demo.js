@@ -389,7 +389,7 @@ window.onload = function() {
     var city = document.getElementById("city");
 
     var oldScript = document.createElement("script");
-    oldScript.src = `https://v0.yiketianqi.com/api?version=v9&appid=34785583&appsecret=8vfS3MzL&city=${"重庆"}&callback=weather`;
+    oldScript.src = `https://v0.yiketianqi.com/api?version=v9&appid=34785583&appsecret=8vfS3MzL&callback=weather`;
     //插入到页面中去
     document.body.appendChild(oldScript);
 
