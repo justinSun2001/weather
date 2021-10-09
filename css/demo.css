@@ -68,6 +68,8 @@ table {
     height: 25px;
     background-color: rgba(138, 167, 177, 0.361);
     color:rgb(199, 208, 211);
+	padding-left: 10px;
+    letter-spacing: 2px;
 }
 .personalWeb {
     font-size: 25px;
