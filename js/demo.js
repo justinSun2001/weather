@@ -393,6 +393,21 @@ window.onload = function() {
     //插入到页面中去
     document.body.appendChild(oldScript);
 
+    city.onkeydown = function(event) {
+        if(event.key=='Enter'){
+            if (city.value) {
+                var newScript = document.createElement("script");
+                newScript.src = `https://v0.yiketianqi.com/api?version=v9&appid=34785583&appsecret=8vfS3MzL&city=${city.value}&callback=weather`;
+    
+                //插入到页面中去
+                document.body.replaceChild(newScript, oldScript);
+                oldScript = newScript;
+            } else {
+                alert("请输入城市名称!");
+            }
+        }
+    }
+    
     btn.onclick = function() {
         // 加个判断，输入内容是否为空
         if (city.value) {
