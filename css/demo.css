@@ -177,7 +177,7 @@ a:hover {
 }
 
 .hours-container .hour-list .style1 {
-    color:rgba(214, 212, 212, 0.902);
+    color:black;
     font-size: small;
 }
 
@@ -224,7 +224,7 @@ a:hover {
 
 .days-container .day-list .style2 {
     font-size: small;
-    color: grey;
+    color: black;
 }
 
 .days-container .day-list .style3 {
@@ -235,14 +235,14 @@ a:hover {
 }
 
 .days-container .day-list .style4 {
-    color:darkslategray;
+    color:rgba(24, 106, 214, 0.902);
     display: block;
     padding-top: 25px;
     padding-bottom: 120px;
 }
 
 .days-container .day-list .style5 {
-    color:darkslategray;
+    color:rgba(24, 106, 214, 0.902);
     display: block;
     padding-bottom: 25px;
 }
@@ -257,7 +257,7 @@ a:hover {
 
 .days-container .day-list .style7 {
     font-size: small;
-    color: grey;
+    color: black;
 }
 
 .life-container {
