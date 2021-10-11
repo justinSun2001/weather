@@ -206,27 +206,27 @@ function weather(data) {
 
     span2[0].innerHTML = data.data[1].hours[1].hours.slice(0,2) + ":00";
     span2[1].innerHTML = weatherIcon(1);
-    span2[2].innerHTML = data.data[1].hours[1].tem + "℃";
+    span2[2].innerHTML = data.data[0].hours[1].tem + "℃";
 
     span3[0].innerHTML = data.data[2].hours[2].hours.slice(0,2) + ":00";
     span3[1].innerHTML = weatherIcon(2);
-    span3[2].innerHTML = data.data[2].hours[2].tem + "℃";
+    span3[2].innerHTML = data.data[0].hours[2].tem + "℃";
 
     span4[0].innerHTML = data.data[3].hours[3].hours.slice(0,2) + ":00";
     span4[1].innerHTML = weatherIcon(3);
-    span4[2].innerHTML = data.data[3].hours[3].tem + "℃";
+    span4[2].innerHTML = data.data[0].hours[3].tem + "℃";
 
     span5[0].innerHTML = data.data[4].hours[4].hours.slice(0,2) + ":00";
     span5[1].innerHTML = weatherIcon(4);
-    span5[2].innerHTML = data.data[4].hours[4].tem + "℃";
+    span5[2].innerHTML = data.data[0].hours[4].tem + "℃";
 
     span6[0].innerHTML = data.data[5].hours[5].hours.slice(0,2) + ":00";
     span6[1].innerHTML = weatherIcon(5);
-    span6[2].innerHTML = data.data[5].hours[5].tem + "℃";
+    span6[2].innerHTML = data.data[0].hours[5].tem + "℃";
 
     span7[0].innerHTML = data.data[6].hours[6].hours.slice(0,2) + ":00";
     span7[1].innerHTML = weatherIcon(6);
-    span7[2].innerHTML = data.data[6].hours[6].tem + "℃";
+    span7[2].innerHTML = data.data[0].hours[6].tem + "℃";
 /*
     span8[0].innerHTML = data.data[7].hours[7].hours.slice(0,2) + ":00";
     span8[1].innerHTML = weatherIcon(7);
@@ -298,7 +298,7 @@ function weather(data) {
     daySpan1[5].innerHTML = data.data[0].tem2 + "℃";
     daySpan1[6].innerHTML = weatherNightIcon(0);
     daySpan1[7].innerHTML = data.data[0].wea_night;
-    daySpan1[8].innerHTML = data.data[0].win[0] + " " + data.data[0].win_speed;
+    daySpan1[8].innerHTML = data.data[0].win[1] + " " + data.data[0].win_speed;
 
     daySpan2[0].innerHTML = "周" + data.data[1].week.slice(2,3);
     daySpan2[1].innerHTML = data.data[1].date.slice(5,7) + "月" + data.data[1].day.slice(0,3);
@@ -318,7 +318,7 @@ function weather(data) {
     daySpan3[5].innerHTML = data.data[2].tem2 + "℃";
     daySpan3[6].innerHTML = weatherNightIcon(2);
     daySpan3[7].innerHTML = data.data[2].wea_night;
-    daySpan3[8].innerHTML = data.data[2].win[2] + " " + data.data[2].win_speed;
+    daySpan3[8].innerHTML = data.data[2].win[1] + " " + data.data[2].win_speed;
 
     daySpan4[0].innerHTML = "周" + data.data[3].week.slice(2,3);
     daySpan4[1].innerHTML = data.data[3].date.slice(5,7) + "月" + data.data[3].day.slice(0,3);
@@ -328,7 +328,7 @@ function weather(data) {
     daySpan4[5].innerHTML = data.data[3].tem2 + "℃";
     daySpan4[6].innerHTML = weatherNightIcon(3);
     daySpan4[7].innerHTML = data.data[3].wea_night;
-    daySpan4[8].innerHTML = data.data[3].win[3] + " " + data.data[3].win_speed;
+    daySpan4[8].innerHTML = data.data[3].win[1] + " " + data.data[3].win_speed;
 
     daySpan5[0].innerHTML = "周" + data.data[4].week.slice(2,3);
     daySpan5[1].innerHTML = data.data[4].date.slice(5,7) + "月" + data.data[4].day.slice(0,3);
@@ -338,7 +338,7 @@ function weather(data) {
     daySpan5[5].innerHTML = data.data[4].tem2 + "℃";
     daySpan5[6].innerHTML = weatherNightIcon(4);
     daySpan5[7].innerHTML = data.data[4].wea_night;
-    daySpan5[8].innerHTML = data.data[4].win[4] + " " + data.data[4].win_speed;
+    daySpan5[8].innerHTML = data.data[4].win[1] + " " + data.data[4].win_speed;
 
     daySpan6[0].innerHTML = "周" + data.data[5].week.slice(2,3);
     daySpan6[1].innerHTML = data.data[5].date.slice(5,7) + "月" + data.data[5].day.slice(0,3);
@@ -348,7 +348,7 @@ function weather(data) {
     daySpan6[5].innerHTML = data.data[5].tem2 + "℃";
     daySpan6[6].innerHTML = weatherNightIcon(5);
     daySpan6[7].innerHTML = data.data[5].wea_night;
-    daySpan6[8].innerHTML = data.data[5].win[5] + " " + data.data[5].win_speed;
+    daySpan6[8].innerHTML = data.data[5].win[1] + " " + data.data[5].win_speed;
 
     daySpan7[0].innerHTML = "周" + data.data[6].week.slice(2,3);
     daySpan7[1].innerHTML = data.data[6].date.slice(5,7) + "月" + data.data[6].day.slice(0,3);
@@ -358,7 +358,7 @@ function weather(data) {
     daySpan7[5].innerHTML = data.data[6].tem2 + "℃";
     daySpan7[6].innerHTML = weatherNightIcon(6);
     daySpan7[7].innerHTML = data.data[6].wea_night;
-    daySpan7[8].innerHTML = data.data[6].win[6] + " " + data.data[6].win_speed;
+    daySpan7[8].innerHTML = data.data[6].win[1] + " " + data.data[6].win_speed;
 
 
 }
